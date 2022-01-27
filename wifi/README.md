@@ -3,6 +3,15 @@
 ## Install the latest firmware
 ```
 # ./mt76/firmware has the latest firmware for the NIC
+# firmware:       mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
+# firmware:       mediatek/WIFI_RAM_CODE_MT7922_1.bin
+# firmware:       mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
+# firmware:       mediatek/WIFI_RAM_CODE_MT7961_1.bin
+cd ./mt76/firmware
+cp WIFI_MT7922_patch_mcu_1_1_hdr.bin /lib/firmware/mediatek/
+cp WIFI_RAM_CODE_MT7922_1.bin /lib/firmware/mediatek/
+cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek/
+cp WIFI_RAM_CODE_MT7961_1.bin /lib/firmware/mediatek/
 ```
 
 ## Build and deploy kernel module
