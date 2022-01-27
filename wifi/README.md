@@ -31,8 +31,8 @@ xz ./mt7921/mt7921e.ko
 # Move to kernel module directory
 sudo mv ./mt76-connac-lib.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76
 sudo mv ./mt76.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76
-sudo mv ./mt7921/mt7921-common.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76
-sudo mv ./mt7921/mt7921e.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76
+sudo mv ./mt7921/mt7921-common.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
+sudo mv ./mt7921/mt7921e.ko.xz /lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
 
 # Deploy
 sudo depmod
