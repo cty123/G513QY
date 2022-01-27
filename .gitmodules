@@ -1,0 +1,3 @@
+[submodule "wifi/mt76"]
+	path = wifi/mt76
+	url = https://github.com/openwrt/mt76
